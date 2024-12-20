@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid;
+}
+.grid-container__cell{
+    border: 1px solid white;
+    min-width: 3rem;
+    min-height: 3rem;
+    cursor: pointer;
+}
+.grid-container__cell.selected{
+    background-color: green;
+    cursor: not-allowed;
+}
